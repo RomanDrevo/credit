@@ -1,0 +1,72 @@
+@import '../../styles/abstract/all';
+
+.login :global {
+    background-color: $color-white;
+    .header {
+        height: 176px;
+        img {
+            max-height: 100%;
+            width: 38px;
+        }
+        .title {
+            font-size: 20px;
+        }
+    }
+    .form-section {
+        padding: 0 35px;
+        .action-button{
+            height: 38px;
+            width: 156px;
+            font-weight: bold;
+        }
+        input{
+            font-size: 14px;
+            color: $color-black;
+            opacity: 1;
+        }
+        input::placeholder{
+            text-align: left;
+            font-size: 14px;
+        }
+        .mui-textfield--float-label > label{
+            color: $color-pickled-bluewood;
+            opacity: 1;
+
+        }
+        .mui-textfield{
+            margin-bottom: 50px;
+        }
+    }
+    #controlled-tab{
+        li{
+            margin: 30px 0;
+            text-align: center;
+            background:white;
+        }
+
+        li:first-child{
+            width: 49%;
+            border-left: 1px solid #979797 ;
+        }
+
+        li:last-child{
+            width: 49%;
+        }
+
+        .nav-tabs > li.active > a{
+            padding: 0;
+            font-weight: 600;
+            display: inline;
+            border: none;
+            border-bottom: 2px solid $color-flat-blue;
+            color:$color-flat-blue;
+        }
+
+        .nav-tabs {
+            border-bottom: none;
+        }
+        .nav > li > a{
+            padding:0;
+        }
+    }
+}

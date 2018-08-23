@@ -1,0 +1,85 @@
+@import '../../styles/abstract/all';
+
+.header :global {
+    .navbar-default {
+        background-color: $color-white;
+    }
+    .desktop-header-wrapper {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0;
+        border: none;
+        border-bottom: solid 1px #c0c0c0;
+
+        .form-control {
+            height: 23px;
+            border: none;
+            border-bottom: 1px solid $color-warm-grey;
+            border-radius: 0;
+            background-color: transparent;
+            box-shadow: none;
+        }
+
+        .search-icon {
+            width: 14px;
+            height: 14px;
+            color: #3a3a3a;
+            margin-left: -8px;
+        }
+
+
+        .navbar-brand {
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+
+        @media (min-width: 768px) {
+            .navbar-nav > li > a {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                color: $color-dark-grey-blue;
+
+                &:hover {
+                    color: lighten($color-light-ultra-gray-two, 30);
+                }
+            }
+        }
+
+        .login-register {
+            li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+
+        .search-form-group {
+            .form-control {
+                font-size: 14px;
+                color: #04294f;
+                height: 32px;
+                padding-right: 18px;
+                padding-left: 70px;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .category-list-wrapper {
+        font-size: 18px;
+        background-color: $color-white;
+
+        .navbar {
+            margin-bottom: 0;
+            border: none;
+            border-bottom: solid 1px #c0c0c0;
+        }
+
+        .navbar-default .navbar-nav > li > a {
+            color: $color-light-ultra-gray-two;
+
+            &:hover {
+                color: lighten($color-light-ultra-gray-two, 30);
+            }
+        }
+    }
+}

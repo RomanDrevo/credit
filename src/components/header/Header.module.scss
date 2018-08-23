@@ -1,0 +1,136 @@
+@import '../../styles/abstract/all';
+
+.navbar {
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-image: linear-gradient(to left, #19398a, #3076a7);
+    border: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    height: $navbar-height;
+}
+
+.header :global {
+    .is-not-top{
+        background: transparent none;
+        box-shadow: inset 0 33px 38px 0 rgba(0, 0, 0, 0.1);
+    }
+    .invisible{
+        visibility: hidden;
+    }
+    .navbar-nav {
+        > li {
+            > a {
+                background-color: transparent !important;
+                padding-left: 30px;
+                padding-right: 30px;
+                font-size: 17px;
+                color: $color-cobalt;
+            }
+        }
+
+        .active {
+            > a {
+                color: $color-white;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        border: none;
+    }
+
+    .logo {
+        width: 30px;
+        height: 21px;
+        object-fit: contain;
+    }
+
+    .navbar-header {
+        .menu-burger-icon {
+            margin-right: 15px;
+            width: 26px;
+        }
+
+        .bm-overlay {
+            top: 0;
+        }
+    }
+
+    .header-title {
+        font-size: 17px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    .icon {
+        width: 25px;
+        height: 100%;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+
+    .search-form-group {
+        .form-control {
+            border-radius: 50px;
+            border: solid 1px #04294f;
+            font-size: 14px;
+            color: #04294f;
+            height: 32px;
+            padding-right: 18px;
+            padding-left: 70px;
+            box-shadow: none;
+        }
+
+        .form-control-feedback-icon {
+            width: 12px;
+            height: 12px;
+        }
+
+        .form-control-feedback {
+            top: 10px;
+            right: 9px;
+        }
+
+        .search-clear-button {
+            position: absolute;
+            left: 9px;
+            top: 5px;
+            bottom: 0;
+            padding: 0 5px;
+            display: block;
+            .icon {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+
+    .search-icon{
+        width: 21px;
+    }
+
+    .search-clear-img {
+        height: 10px;
+    }
+    .logo-isracard {
+        width: 27px;
+        height: 18px;
+        object-fit: contain;
+    }
+    .personal {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+    }
+    .home {
+        width: 19px;
+        height: 18px;
+        object-fit: contain;
+    }
+    .container{
+        height: 100%;
+    }
+}

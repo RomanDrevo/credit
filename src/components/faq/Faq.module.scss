@@ -1,0 +1,175 @@
+@import '../../styles/abstract/all';
+
+.faq :global {
+    .faq-list {
+        margin-top: 40px;
+        font-size: 15px;
+
+        a:hover, a:focus, a:visited{
+            text-decoration: none ;
+        }
+
+        .faq-item {
+            background-color: $color-white;
+            .right-number {
+                width: 55px;
+                height: 50px;
+                font-size: 40px;
+                color: $color-white;
+                line-height: 50px;
+
+            }
+
+            .header {
+                height: 50px;
+                box-shadow: 0 0 3px 0 rgba(54, 83, 153, 0.11);
+            }
+
+            .arrow {
+                height: 6px;
+                width: 11px;
+            }
+        }
+        & :nth-child(6n + 1) .right-number {
+            background-color: $color-havelock-blue;
+        }
+        & :nth-child(6n + 2) .right-number {
+            background-color: $color-indigo;
+        }
+        & :nth-child(6n + 3) .right-number {
+            background-color: $color-san-marino;
+        }
+        & :nth-child(6n + 4) .right-number {
+            background-color: $color-azure;
+        }
+        & :nth-child(6n + 5) .right-number {
+            background-color: $color-st-tropaz;
+        }
+        & :nth-child(6n + 6) .right-number {
+            background-color: $color-biscay;
+        }
+        .answer {
+            background-color: $color-white;
+            margin-bottom: 10px;
+        }
+    }
+
+    .desktop-faq-wrapper{
+        box-shadow: 0 0 .5px 0 $color-warm-grey;
+        .faq-list{
+            margin-top: 0;
+        }
+
+        .faq-item{
+            font-size: 20px;
+            text-align: right;
+            color: $color-dark-grey-blue;
+        }
+
+        .answer{
+            //border: 1px dashed black;
+            margin-bottom: 0;
+            //padding: 0 30px;
+        }
+
+        .faq-list .faq-item .arrow {
+            height: 10px;
+            width: 15px;
+        }
+
+    }
+
+    //.links-container {
+    //    padding: 0;
+    //    background: $color-white;
+    //    box-shadow: 0 0 .5px 0 $color-warm-grey;
+    //    width: 272px;
+    //    a {
+    //        cursor: pointer;
+    //    }
+    //    li {
+    //        list-style-type: none;
+    //        padding: 11px 19px;
+    //        //box-shadow: 0 0 .5px 0 $color-warm-grey;
+    //    }
+    //}
+
+    .links-container{
+        padding: 0;
+        background: $color-white;
+        box-shadow: 0 0 .5px 0 $color-warm-grey;
+        width: 272px;
+        a {
+            cursor: pointer;
+        }
+        li {
+            list-style-type: none;
+            //padding: 11px 19px;
+            box-shadow: 0 0 .5px 0 $color-warm-grey;
+        }
+
+        .active-link {
+            background: $color-pale-grey;
+        }
+    }
+
+    .image-and-title-container {
+        position: relative;
+        .category-title {
+            font-size: 50px;
+            color: $color-white;
+            margin: 0;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    //stats
+    .stats-wrapper {
+        //margin: 0 22%;
+        //position: relative;
+        top: -33px;
+        z-index: 1;
+    }
+
+    .stats-item {
+        //width: 172px;
+        //height: 68px;
+        //padding: 0 20px;
+        background: #fff;
+        //box-shadow: 0 0 0 0.5px $color-warm-grey;
+
+        .number-1 {
+            color: $color-cerise-red;
+        }
+        .number-2 {
+            color: $color-denim;
+        }
+        .number-3 {
+            color: $color-fuchsia-blue;
+        }
+
+        .stat-number {
+            font-size: 40px;
+            letter-spacing: -0.2px;
+            text-align: right;
+        }
+
+        .stat-title {
+            font-size: 18px;
+            text-align: right;
+            color: $color-dark-grey-blue;
+        }
+
+        .left-arrow {
+            height: 9px;
+            width: 10px;
+            margin-right: 1px;
+        }
+    }
+
+    .stat-icon {
+        width: 18px;
+        height: 23px;
+    }
+}

@@ -1,0 +1,149 @@
+@import '../../styles/abstract/all';
+
+$credit-card-width: 200px;
+$credit-card-height: 130px;
+.benefit-redemption :global {
+    .header {
+        height: 220px;
+        background-color: $color-white;
+        font-size: 20px;
+        h1 {
+            font-size: 20px;
+            border-bottom: 1px solid $color-dusty-gray;
+        }
+        .amount-details {
+            width: 100%;
+            h2 {
+                font-size: 20px;
+            }
+            .quantity {
+                min-width: 110px;
+                img {
+                    width: 21px;
+                    height: 21px;
+                }
+                .icon-plus {
+                    margin-left: 10px;
+                }
+                .icon-minus {
+                    margin-right: 10px;
+                }
+            }
+            .cost {
+                border-left: 1px solid;
+                border-right: 1px solid;
+            }
+            .total {
+            }
+        }
+    }
+    .cards-list {
+        color: $color-cobalt;
+        .padding-fix {
+            padding-right: calc(((100% - #{$credit-card-width}) / 2) - 15px);
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .check-icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 30px;
+            height: 30px;
+        }
+        .credit-card {
+            height: 100%;
+            font-size: 15px;
+            &:last-of-type {
+                padding-left: calc(((100% - #{$credit-card-width}) / 2));
+            }
+            &:not(:last-of-type) {
+                margin-left: 37px;
+            }
+            .credit-card-image {
+                height: $credit-card-height;
+                width: $credit-card-width;
+                box-shadow: 0 0 5.5px 0 rgba(54, 83, 153, 0.55);
+                border-radius: 9px;
+                background-size: cover;
+                .no-card-opacity {
+                    background-color: $color-black;
+                    height: $credit-card-height;
+                    width: $credit-card-width;
+                    opacity: 0.66;
+                    border-radius: 9px;
+                }
+            }
+            .card-provider-details {
+                width: $credit-card-width;
+            }
+            p {
+                position: absolute;
+                top: 24px;
+                right: 0;
+                left: 0;
+                font-size: 12px;
+                color: $color-white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .question-mark {
+                width:30px;
+                height: 30px;
+                position: absolute;
+                bottom: 37px;
+                right: 0;
+                left: 0;
+                font-size: 12px;
+                color: $color-white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .submit-benefit {
+        width: 156px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 4px 0;
+    }
+    .error {
+        color: $color-thunderbird;
+        position: absolute;
+        top: -20px;
+    }
+    .coupon-section {
+        color: $color-cobalt;
+        h1 {
+            font-size: 21px;
+            padding: 0 30px;
+        }
+        .description {
+            font-size: 15px;
+            padding: 0 30px;
+
+        }
+        .suggested-benefits {
+            padding-right: 15px;
+        }
+        .list-title {
+            p {
+                font-weight: 600
+
+            }
+            a {
+                display: none;
+            }
+        }
+        .benefit-cover-img {
+            width: 200px;
+        }
+    }
+
+}
+

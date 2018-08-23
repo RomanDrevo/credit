@@ -1,0 +1,13 @@
+@import "../../../styles/abstract/all";
+
+.action-button {
+    font-size: 17px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left, $color-cobalt, $color-flat-blue);
+    color: $color-white;
+    font-weight: 600;
+}
+
+.action-button:hover{
+    color:#fff;
+}

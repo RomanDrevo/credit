@@ -1,0 +1,44 @@
+@import '../../../../styles/abstract/all';
+
+.categories :global {
+    background-color: $color-white;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    ul {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        padding: 15px 15px;
+
+        li {
+            & + li {
+                margin-right: 6px;
+            }
+
+            &:last-child {
+                .category {
+                    margin-left: 15px; // this is for the correct space when scrolled to last category
+                }
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 55px;
+        object-fit: cover;
+    }
+
+    .category {
+        box-shadow: 0 0 3px 0 rgba(54, 83, 153, 0.5);
+        text-align: center;
+        font-size: 14px;
+        color: $color-light-navy;
+        width: 96px;
+
+        .name {
+            line-height: 18px;
+        }
+    }
+}

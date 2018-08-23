@@ -1,0 +1,34 @@
+@import '../../../styles/abstract/all';
+
+.business-box {
+    width: 155px;
+    height: 92px;
+    border: 1px solid $color-gallery;
+    border-radius: 3px;
+    background-color: $color-white;
+    padding: 10px;
+    .company-logo {
+        width:100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+    }
+}
+
+.desktop-business-box{
+    margin-left: 15px;
+    width: 216px;
+    height: 127px;
+    border: 1px solid $color-gallery;
+    border-radius: 3px;
+    background-color: $color-white;
+    padding: 10px;
+    .company-logo {
+        width:100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+    }
+}

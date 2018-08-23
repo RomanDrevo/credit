@@ -1,0 +1,55 @@
+@import '../../styles/abstract/all';
+
+
+.searchBar :global {
+
+    width: 303px;
+
+    .search-item{
+        list-style-type: none;
+        background-color: $color-white;
+        box-shadow: 0 0 0 0.5px $color-warm-grey;
+        padding: 10px 19px;
+        font-size: 17px;
+        font-weight: 600;
+        color: $color-dark-grey-blue;
+    }
+
+    .search-item:hover{
+        background-color: $color-pale-grey;
+    }
+
+    .search-clear-button{
+        position: relative;
+        left: 10px;
+    }
+
+    .search-clear-img{
+        width: 7px;
+    }
+
+    .search-results-list{
+        position: absolute;
+        top: 54px;
+        z-index: 1000;
+        width: 303px;
+        padding-right: 0;
+        box-shadow: 0 0 0.5px $color-warm-grey;
+
+
+    }
+    .search-results-list:hover{
+        background-color: $color-hint-of-red;
+    }
+
+    .search-input{
+        width: 202px;
+    }
+
+    .search-input-active{
+        font-size: 20px;
+        width: 303px;
+    }
+}
+
+

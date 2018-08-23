@@ -1,0 +1,65 @@
+@import '../../../../styles/abstract/all';
+
+.promotion-container :global {
+
+    background-color: $color-white;
+    width: 100%;
+    max-height: 282px;
+    img {
+        width: 100%;
+    }
+    .promotion-content {
+        .promotion-text {
+            font-size: 17px;
+            width: 163px;
+            text-align: right;
+            color: $color-dark-grey-blue;
+            padding-right: 9px;
+            padding-bottom: 5px;
+            margin: 0;
+        }
+        .action-button {
+            width: 156px;
+            height: 37px;
+            position: relative;
+            bottom: 20px;
+            left: 15px;
+        }
+    }
+
+
+
+}
+
+.desktop-promotion-container :global{
+    background-color: $color-white;
+    box-shadow: 0 0 0 0.5px $color-warm-grey;
+
+
+    .promotion-cover-img{
+        width: 100%;
+        height: 143px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .promotion-text{
+        height: 87px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: right;
+        color: $color-cobalt;
+    }
+
+    .action-button-wrapper{
+        margin-bottom: 13px;
+        margin-left: 8px;
+    }
+
+    .action-button {
+        padding: 0 30px;
+    }
+}
+
+
+

@@ -1,0 +1,111 @@
+@import '../../styles/abstract/all';
+
+.category-benefits-wrapper-desktop :global {
+    .image-and-title-container {
+        position: relative;
+        .category-title {
+            font-size: 50px;
+            color: $color-white;
+            margin: 0;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    .categories-links-container {
+        width: 273px;
+        padding: 10px 0;
+        ul {
+            padding: 0;
+            background: $color-white;
+            box-shadow: 0 0 1px 0 $color-warm-grey;
+            li {
+                list-style-type: none;
+                padding: 10px;
+                box-shadow: 0 0 .5px 0 $color-warm-grey;
+                font-size: 15px;
+            }
+
+            .title {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .favorite-icon-wrapper {
+        div.favorite-icon {
+            width: 34px;
+            height: 34px;
+        }
+        img.favorite-icon {
+            height: 24px;
+        }
+    }
+
+    .active-link {
+        background: $color-pale-grey;
+    }
+
+    .opacity-3 {
+        opacity: 0.3;
+    }
+    .filters-wrapper {
+        //margin: 13px 0 17px 0;
+        padding: 13px 73px 2px 66px;
+        .margin-left {
+            margin-left: 11px;
+        }
+        .margin-right {
+            margin-right: 11px;
+        }
+        .margin-x {
+            margin: 0 11px;
+        }
+        button {
+            color: $color-cobalt-two;
+            font-size: 13px;
+        }
+    }
+
+    .margin-b {
+        margin-bottom: 38px;
+    }
+
+    .benefit-cover-img {
+        height: 134px;
+        width: 100%;
+    }
+
+}
+
+.category-benefits-wrapper-mobile :global {
+    .opacity-3 {
+        opacity: 0.3;
+    }
+    .filters-wrapper {
+        //margin: 13px 0 17px 0;
+        padding: 13px 73px 2px 66px;
+        .margin-left {
+            margin-left: 11px;
+        }
+        .margin-right {
+            margin-right: 11px;
+        }
+        .margin-x {
+            margin: 0 11px;
+        }
+        button {
+            color: $color-cobalt-two;
+            font-size: 13px;
+        }
+    }
+
+    .margin-b {
+        margin-bottom: 38px;
+    }
+
+    .benefit-cover-img {
+        height: 134px;
+        width: 100%;
+    }
+}

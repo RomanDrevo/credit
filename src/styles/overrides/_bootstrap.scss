@@ -1,0 +1,31 @@
+@import '../abstract/all';
+
+.btn {
+    border-radius: 0;
+    padding: 0;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: $color-alto;
+    background-image: none;
+    opacity: 1;
+}
+
+a {
+    color: $color-dark-grey-blue;
+
+    &:hover, &:focus, &:active {
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: $color-flat-blue;
+    }
+}
+
+.text-muted {
+    color: $color-gray;
+}

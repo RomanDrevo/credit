@@ -1,0 +1,26 @@
+@import '../../../../styles/abstract/all';
+
+.businesses-wrapper :global {
+    .businesses {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+
+        min-height: 120px;
+        li:first-child {
+            margin-right: 0;
+        }
+    }
+
+    .businesses-title-wrapper {
+        p {
+            font-size: 17px;
+            text-align: right;
+            color: $color-light-navy;
+        }
+    }
+
+    .left-arrow {
+        height: 10px;
+        margin-right: 3px;
+    }
+}

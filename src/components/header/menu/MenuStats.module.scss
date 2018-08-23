@@ -1,0 +1,50 @@
+@import '../../../styles/abstract/all';
+
+.my-benefits :global {
+    .benefit-list {
+    }
+    .item {
+        width: 83px;
+        height: 100px;
+        color: $color-light-navy-two;
+        padding-bottom: 15px;
+
+        .icon {
+            width: 35px;
+            max-height: 100%;
+            padding-left: 8px;
+        }
+
+        .number-1 {
+            color: $color-cerise-red;
+        }
+        .number-2 {
+            color: $color-denim;
+        }
+        .number-3 {
+            color: $color-fuchsia-blue;
+        }
+
+        .title {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            font-size: 14px;
+            height: 30px;
+            border-left: 1px solid rgba(52, 73, 94, 0.3);
+            word-spacing: 99999px;
+            line-height: 1.4;
+        }
+
+        .main-stats {
+            padding-bottom: 10px;
+            font-size: 45px;
+        }
+
+        .icon-arrow {
+            width: 5px;
+            margin-right: 2px;
+        }
+    }
+}

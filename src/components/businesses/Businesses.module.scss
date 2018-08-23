@@ -1,0 +1,14 @@
+@import '../../styles/abstract/all';
+
+.businesses :global {
+    justify-content: center;
+    .item{
+        padding: 0 4px;
+    }
+
+    .business-box {
+        width:165px;
+        height:98px;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,0.26);
+    }
+}

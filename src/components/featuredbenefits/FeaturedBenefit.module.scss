@@ -1,0 +1,232 @@
+@import '../../styles/abstract/all';
+
+.benefits {
+    // ggjgjh
+}
+
+.featured-benefits-page-wrapper :global {
+    .item {
+        height: 207px;
+
+        .benefit-box-details {
+            height: 50px;
+        }
+    }
+    .benefit-top-img {
+        height: 286px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .benefit-logo {
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        width: 131px;
+        height: 57px;
+        border-radius: 10px 10px 1px 1px;
+        background-color: #ffffff;
+    }
+
+    .benefit-logo-img {
+        max-height: 100%;
+        margin: 0 auto;
+    }
+
+    .collapse-heading {
+        font-size: 20px;
+    }
+    .benefit-name {
+        height: 100%;
+        border-bottom: solid 1px #dadada;
+        h1 {
+            font-size: 21px;
+        }
+    }
+
+    .benefit-details {
+        text-align: center;
+        border-bottom: solid 1px #dadada;
+        //height: 55px;
+        font-size: 19px;
+        font-weight: 700;
+        //padding: 30px 0;
+        h1 {
+            font-size: 17px;
+        }
+
+        .expired {
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+    .benefit-description {
+        p {
+            font-size: 15px;
+
+        }
+    }
+    .panel-group {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .location-icon {
+        width: 13px;
+        height: 18px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .panel-group a {
+        font-size: 20px;
+    }
+
+    .collapse-wrapper {
+
+        margin-left: -15px;
+        margin-right: -15px;
+
+        .collapse-header {
+            box-shadow: 0 0 10px 0 rgba(130, 130, 130, 0.21);
+            background: #fff;
+        }
+
+        .section-collapse-body {
+            background: #fff;
+            box-shadow: 0 0 10px 0 rgba(130, 130, 130, 0.21);
+        }
+
+        .section-collapse-body:first-child {
+            border: 1px dashed blue;
+            background: #fff;
+        }
+    }
+
+    .order-benefit {
+        background: #fff;
+        margin-right: -15px;
+        margin-left: -15px;
+        position: fixed;
+        z-index: 9999;
+        bottom: 0;
+        width: 100%;
+
+        .favorite-icon {
+            width: 36px;
+            height: 30px;
+            object-fit: contain;
+            right: 24px;
+            //padding-right: 10px;
+        }
+    }
+
+    .favorite-icon-wrapper {
+        border-left: solid 1px #cccccc;
+    }
+
+    .phone-icon {
+        //padding-right: 8px;
+        width: 31px;
+        height: 31px;
+        object-fit: contain;
+    }
+    .arrow {
+        width: 19px;
+        height: 10px;
+    }
+
+    .arrow-left {
+        height: 11px;
+        margin-right: 7px;
+    }
+    // Rename to "nav-text" and no need for height and width
+    .google-nav {
+        width: 28px;
+        height: 25px;
+        font-size: 19px;
+    }
+
+    .order-benefit-btn {
+        color: #fff;
+        background-image: linear-gradient(to left, #19398a, #3076a7);
+        font-size: 20px;
+        height: 57px;
+        border: none;
+        line-height: 57px;
+
+        &:hover {
+            background-image: linear-gradient(to left, lighten(#19398a, 10), lighten(#3076a7, 10));
+        }
+    }
+
+    .ratingStar {
+        width: 16px;
+        padding: 1px;
+    }
+
+    .rating-elem {
+        margin-bottom: -23px;
+    }
+
+    .review-customer-name {
+        color: #9f9f9f;
+    }
+
+    .redemption-wrapper {
+        //padding-top: 0;
+        //
+        &:first-of-type {
+            padding-top: 10px;
+        }
+    }
+
+    .benefit-cover-img {
+        width: 100%;
+        height: 135px;
+    }
+    .customer-reviews {
+        h1 {
+            font-size: 15px;
+            color: $color-gray;
+        }
+    }
+    .title {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .benefit-controls-wrapper {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .purchased-buttons-wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: $color-hint-of-red;
+
+        .action-button {
+            padding: 5px 30px;
+        }
+    }
+    .logo-isracard {
+        width: 27px;
+        height: 18px;
+        object-fit: contain;
+    }
+    .personal {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+    }
+    .home {
+        width: 19px;
+        height: 18px;
+        object-fit: contain;
+    }
+    .container {
+        height: 100%;
+    }
+}

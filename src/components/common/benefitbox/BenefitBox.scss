@@ -1,0 +1,100 @@
+@import '../../../styles/abstract/all';
+
+.benefit-box {
+    $details-height: 40px;
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    .benefit-cover-img {
+        width: 100%;
+        height: calc(100% - #{$details-height });
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .favorite-icon {
+        width: 25px;
+        height: 25px;
+        background-color: #fff;
+        border-radius: 100%;
+        position: absolute;
+        bottom: 9px;
+        right: 10px;
+
+    }
+
+    .benefit-box-logo {
+        max-height: 100%;
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .benefit-box-caption {
+        padding-right: 5px;
+        font-size: 12px;
+        text-align: center;
+        color: $color-dark-grey-blue;
+    }
+    .description-box {
+        background-color: $color-white;
+    }
+
+    .benefit-box-details-mobile {
+        background: #fff;
+        height: $details-height;
+
+    }
+
+    .benefit-box-desktop-wrapper {
+
+        box-shadow: 0 0 0 0.2px $color-warm-grey;
+
+
+        .benefit-cover-img-desktop {
+            height: 200px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .favorite-icon {
+            width: 25px;
+            height: 25px;
+            background-color: #fff;
+            border-radius: 100%;
+            position: absolute;
+            bottom: 9px;
+            right: 10px;
+
+        }
+
+        .benefit-box-logo {
+            max-height: 100%;
+            width: 57px;
+            margin-left: 5px;
+        }
+
+        .benefit-box-caption {
+            padding-right: 5px;
+            font-size: 18px;
+            letter-spacing: -0.1px;
+            text-align: center;
+            color: $color-dark-grey-blue;
+        }
+
+        .benefit-box-details-desktop {
+            background: #fff;
+            height: 100px;
+        }
+    }
+
+    .benefit-details-desktop {
+        background: #fff;
+        height: 128px;
+    }
+
+
+
+}

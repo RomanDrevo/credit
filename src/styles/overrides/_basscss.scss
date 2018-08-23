@@ -1,0 +1,45 @@
+:root {
+    --h1: 34px;
+    --h2: 30px;
+    --h3: 26px;
+    --h4: 22px;
+    --h5: 18px;
+    --h6: 14px;
+    --space-1: 5px;
+    --space-2: 10px;
+    --space-3: 15px;
+    --space-4: 20px;
+    --space-5: 30px;
+    --space-6: 40px;
+    --space-7: 50px;
+    --space-8: 60px;
+}
+
+@mixin add-space-classes($size) {
+    // @formatter:off
+    .m#{$size}  { margin:        var(--space-#{$size}) }
+    .mt#{$size} { margin-top:    var(--space-#{$size}) }
+    .mr#{$size} { margin-right:  var(--space-#{$size}) }
+    .mb#{$size} { margin-bottom: var(--space-#{$size}) }
+    .ml#{$size} { margin-left:   var(--space-#{$size}) }
+    .mx#{$size} { margin-left:   var(--space-#{$size}); margin-right:  var(--space-#{$size}) }
+    .my#{$size} { margin-top:    var(--space-#{$size}); margin-bottom: var(--space-#{$size}) }
+    .mxn#{$size} { margin-left: var(--space-#{$size}); margin-right: var(--space-#{$size}); }
+    .p#{$size}  { padding:        var(--space-#{$size}) }
+    .pt#{$size} { padding-top:    var(--space-#{$size}) }
+    .pr#{$size} { padding-right:  var(--space-#{$size}) }
+    .pb#{$size} { padding-bottom: var(--space-#{$size}) }
+    .pl#{$size} { padding-left:   var(--space-#{$size}) }
+    .py#{$size} { padding-top:    var(--space-#{$size}); padding-bottom: var(--space-#{$size}) }
+    .px#{$size} { padding-left:   var(--space-#{$size}); padding-right:  var(--space-#{$size}) }
+    // @formatter:on
+}
+
+@include add-space-classes(5);
+@include add-space-classes(6);
+@include add-space-classes(7);
+@include add-space-classes(8);
+
+.flex-important {
+    display: flex !important;
+}

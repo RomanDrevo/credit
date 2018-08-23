@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="127px" viewBox="0 0 126 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="54.3635463%" y1="57.1360842%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1576C8" offset="0%"></stop>
+            <stop stop-color="#05709D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="חיפוש" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="חיפוש-1.4-אין-תוצאות" transform="translate(-310.000000, -357.000000)" stroke="url(#linearGradient-1)" stroke-width="10">
+            <g id="Group-12" transform="translate(315.000000, 362.000000)">
+                <path d="M48,95 C21.490332,95 0,73.7335256 0,47.5 C0,21.2664744 21.490332,0 48,0 C74.509668,0 96,21.2664744 96,47.5 C96,73.7335256 74.509668,95 48,95 Z M81.4644661,89.5355339 L88.5355339,82.4644661 L114,107.928932 C115.952621,109.881554 115.952621,113.047379 114,115 C112.047379,116.952621 108.881554,116.952621 106.928932,115 L106.928932,115 L81.4644661,89.5355339 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+@import '../../../styles/abstract/all';
+
+.input-field :global {
+    //.color-red{
+    //    border: 1px solid red;
+    //}
+
+    .input-section{
+        .mui-textfield.mui-textfield--float-label {
+            margin-bottom: 0px;
+        }
+    }
+
+    .mui-textfield--float-label {
+        margin-bottom: 0;
+        color: $color-dark-grey-blue;
+        label {
+            color: $color-dark-grey-blue;
+            font-size: 14px;
+        }
+        input {
+            color: $color-dark-grey-blue;
+            border-bottom: 1px solid $color-dark-grey-blue;
+        }
+    }
+    .error {
+        color: $color-thunderbird;
+        font-size: 13px;
+        font-weight: 600;
+        height: 20px;
+        margin: 0;
+        margin-top: -17px;
+    }
+    input{
+        font-size: 20px;
+        text-align: right;
+    }
+}

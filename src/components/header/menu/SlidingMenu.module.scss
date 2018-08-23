@@ -1,0 +1,57 @@
+@import '../../../styles/abstract/all';
+
+.links-container :global {
+    top: 0;
+    background: $color-white;
+
+    p.bold {
+        display: none;
+    }
+
+    .benefits-stats-slide-menu {
+        background-color: $color-white;
+        padding: 10px 0 20px 0;
+        box-shadow: 0 2px 35px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    .slide-menu-top-bar {
+        p {
+            font-size: 21px;
+            margin: 0;
+        }
+    }
+
+    .browser-compatibility {
+        -webkit-appearance: none;
+        background: transparent;
+        border: none;
+    }
+
+    .links-list {
+        list-style-type: none;
+        padding: 0;
+        li {
+            padding: 11px 17px 11px 0;
+            a {
+                font-size: 17px;
+                color: $color-cobalt;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .bg-blue {
+        background: $color-flat-blue;
+        color: $color-white;
+        padding: 21px 20px;
+    }
+
+    .close-image {
+        width: 20px;
+    }
+
+    .sunny-image {
+        width: 27px;
+    }
+
+}

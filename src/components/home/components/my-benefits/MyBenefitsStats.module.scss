@@ -1,0 +1,47 @@
+@import '../../../../styles/abstract/all';
+
+.my-benefits :global {
+    .benefit-list {
+    }
+    .item {
+        width: 105px;
+        height: 100px;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.07);
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+        color: $color-white;
+
+        .icon {
+            width: 35px;
+            max-height: 100%;
+            padding-left:8px;
+        }
+        .number{
+            line-height: 45px;
+        }
+        .title {
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            left:0;
+            font-size: 15px;
+        }
+        .main-stats {
+            padding-bottom: 10px;
+            font-size: 45px;
+        }
+        .icon-arrow {
+            width: 5px;
+            margin-right: 2px;
+        }
+    }
+    .col-4:nth-child(1) .item {
+        background-color: $color-cerise-red;
+    }
+    .col-4:nth-child(2) .item {
+        background-color: $color-denim;
+    }
+    .col-4:nth-child(3) .item {
+        background-color: $color-fuchsia-blue;
+    }
+}

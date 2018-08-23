@@ -1,0 +1,38 @@
+@import '../../../styles/abstract/all';
+
+.date-field :global {
+    .mui-textfield--float-label {
+        margin-bottom: 5px;
+        color: rgba(0, 0, 0, 1)
+
+    }
+    .error {
+        color: $color-thunderbird;
+        font-size: 14px;
+        font-weight: 600;
+        height: 20px;
+    }
+    .input-section {
+
+        width: 100%;
+        input::placeholder {
+            font-size: 14px;
+            font-weight: 400;
+            color: #000;
+        }
+        input {
+            font-size: 17px;
+            font-weight: 600;
+            width: 100%;
+            border: 0;
+            box-shadow: 0 1px 1px -1px $color-pickled-bluewood;
+        }
+        label {
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .mui-textfield--float-label > label{
+            color: rgba(0, 0, 0, 1)
+        }
+    }
+}

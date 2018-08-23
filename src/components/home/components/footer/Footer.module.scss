@@ -1,0 +1,20 @@
+@import '../../../../styles/abstract/all';
+
+
+.footer-wrapper :global {
+    height: 68px;
+    background-color: $color-pale-grey;
+    .footer-content {
+        width: 158px;
+        height: 26px;
+        font-size: 20px;
+        margin-top: 23px;
+        text-align: right;
+        color: $color-brownish-grey;
+    }
+    .divider {
+        width: 1px;
+        height: 19px;
+        border: solid 0.5px $color-warm-grey;
+    }
+}

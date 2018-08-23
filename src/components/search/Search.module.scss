@@ -1,0 +1,144 @@
+@import '../../styles/abstract/all';
+
+
+
+.search :global {
+    background-color: $color-pale-grey-two;
+    position: fixed;
+    z-index: 10;
+    top: 57px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .desktop-search-wrapper{
+        position: initial;
+    }
+
+
+    .search-results, .last-searches {
+        padding-top: 25px;
+    }
+
+    .no-results {
+        padding: 120px 54px 0 54px;
+
+        .magnifying-glass-desktop{
+            width: 72px;
+            height: 73px;
+            margin-bottom: 35px;
+        }
+
+        .cactus-img {
+            width: 59px;
+            height: 59px;
+            margin-bottom: 70px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+
+        .hot-benefits-button {
+            padding: 5px 36px;
+        }
+
+        .no-result-title{
+            font-size: 30px;
+        }
+
+        .no-result-text{
+            font-size: 20px;
+            margin-bottom: 55px;
+        }
+
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .last-search {
+        margin-bottom: 15px;
+    }
+
+    .last-search:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .cactus-img {
+        width: 270px;
+        height: 170px;
+    }
+
+    .no-scrolling {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .keyword{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+
+}
+
+.desktopSearch :global{
+    background-color: $color-hint-of-red;
+    z-index: 10;
+    top: 57px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .search-results, .last-searches {
+        padding-top: 25px;
+    }
+
+    .no-results {
+        padding: 120px 54px 0 54px;
+
+        .magnifying-glass-desktop{
+            width: 72px;
+            height: 73px;
+            margin-bottom: 35px;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .no-result-title{
+            font-size: 30px;
+        }
+
+        .no-result-text{
+            font-size: 20px;
+            margin-bottom: 55px;
+        }
+
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .last-search {
+        margin-bottom: 15px;
+    }
+
+    .last-search:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .keyword{
+        font-size: 30px;
+        font-weight: 600;
+        color : $color-dark-grey-blue;
+        box-shadow: 0 0.5px 0 0 $color-warm-grey;
+    }
+
+
+}
+
+

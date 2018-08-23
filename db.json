@@ -1,0 +1,1131 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "כל ההטבות",
+            "imageUrl": "https://image.ibb.co/c1Q9Sm/Group_28.png"
+        },
+        {
+            "id": 2,
+            "name": "אוכל ונשנושים",
+            "imageUrl": "https://image.ibb.co/kremXb/food.png"
+        },
+        {
+            "id": 3,
+            "name": "תרבות ופנאי",
+            "imageUrl": "https://image.ibb.co/b3s6Xb/culture.png"
+        },
+        {
+            "id": 4,
+            "name": "אופנה ואביזרים",
+            "imageUrl": "https://image.ibb.co/n6gddG/fashion.png"
+        },
+        {
+            "id": 5,
+            "name": "חופשה ונופש",
+            "imageUrl": "https://image.ibb.co/cFdfsb/vacation.png"
+        },
+        {
+            "id": 6,
+            "name": "אוכל ונשנושים",
+            "imageUrl": "https://image.ibb.co/kremXb/food.png"
+        },
+        {
+            "id": 7,
+            "name": "תרבות ופנאי",
+            "imageUrl": "https://image.ibb.co/b3s6Xb/culture.png"
+        },
+        {
+            "id": 8,
+            "name": "אופנה ואביזרים",
+            "imageUrl": "https://image.ibb.co/n6gddG/fashion.png"
+        }
+    ],
+    "featured-benefits": [
+        {
+            "id": 1,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "sliderImg": "https://source.unsplash.com/featured/1920*430/?concert"
+        },
+        {
+            "id": 2,
+            "name": "BLUE MAN GROUP - כרטיס 1+1 היכל התרבות",
+            "coverImageUrl": "https://image.ibb.co/gFAq06/burger.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "sliderImg": "https://source.unsplash.com/featured/1920*430/?culture"
+        },
+        {
+            "id": 3,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל טורקי",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "sliderImg": "https://source.unsplash.com/featured/1920*430/?food"
+        },
+        {
+            "id": 4,
+            "name": "BLUE MAN GROUP - כרטיס 1+1 היכל התרבות",
+            "coverImageUrl": "https://image.ibb.co/gFAq06/burger.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "sliderImg": "https://source.unsplash.com/featured/1920*430/?movie"
+        }
+    ],
+    "suggested-benefits": [
+        {
+            "id": 1,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 2,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 3,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 5,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 6,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 7,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 8,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 9,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 10,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 11,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 12,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 13,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 14,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 15,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 16,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 17,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 18,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 19,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 20,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 21,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        }
+    ],
+    "popular-benefits": [
+        {
+            "id": 1,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 2,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 3,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "BLUE MAN GROUP - כרטיס 1+1 היכל התרבות",
+            "coverImageUrl": "https://image.ibb.co/gFAq06/burger.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "sliderImg": "https://source.unsplash.com/featured/1920*430/?movie"
+        }
+    ],
+    "most-viewed-benefits": [
+        {
+            "id": 1,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 2,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 3,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        }
+    ],
+    "businesses": [
+        {
+            "id": 1,
+            "name": "פלאפל בריבוע",
+            "imageUrl": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": true
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "בלו מאן גרופ",
+            "imageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": true
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": true
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "בלו מאן גרופ",
+            "imageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": true
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "פלאפל בריבוע",
+            "imageUrl": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": true
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "פלאפל בריבוע",
+            "imageUrl": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": true
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": true
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": true
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "בלו מאן גרופ",
+            "imageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "בלו מאן גרופ",
+            "imageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+                    "isFavorite": false
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "פלאפל בריבוע",
+            "imageUrl": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": false
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImg": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "storeLogoImg": "https://image.ibb.co/gU9uGR/bitmap_3x.png",
+                    "isFavorite": false
+                }
+            ]
+        }
+    ],
+    "promotions": [
+        {
+            "id": 1,
+            "actionTypeText": "להלוואה",
+            "contentText": "הלוואה לכל מטרה בהזדמנות מידיית",
+            "src": "https://image.ibb.co/fTEpi6/ad_1.jpg"
+        },
+        {
+            "id": 2,
+            "actionTypeText": "לשחזור",
+            "contentText": "לשחזור הקוד הסודי",
+            "src": "https://image.ibb.co/nHpdbR/ad_2.jpg"
+        }
+    ],
+    "benefits": [
+        {
+            "id": 1,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי",
+            "price": 50,
+            "maxQuantity": 5,
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "description": "מיזמי אגרונומיה אם עוד, כדי ב ויקי סוציולוגיה אנציקלופדיה. שכל החלה מושגי בחירות גם, מיותר מת על זאת, על אתה שתפו הבהרה.",
+            "viewersCount": 56,
+            "expireAt": "2017-11-18T11:30:30.378Z",
+            "termsAndConditions": "ויקי סוציולוגיה אנציקלופדיה.שכל החלה מושגי בחירות גםשכל החלה מושגי בחירות גםשכל החלה מושגי בחירות גם שכל החלה מושגי בחירות גם, מיותר מת על זאת",
+            "redemptionAddresses": [
+                {
+                    "address": "סוקולוב 45, תל אביב",
+                    "isOpen": true,
+                    "distanceKm": 2.6
+                },
+                {
+                    "address": "סולומון 36, חולון",
+                    "isOpen": false,
+                    "distanceKm": 7.5
+                }
+            ],
+            "business": {
+                "name": "BLUE MANS GROUP",
+                "phoneNumber": "1700-70-70-70",
+                "customerServicePhoneNumber": "03-6241111 שלוחה 1",
+                "siteUrl": "http://google.com"
+            },
+            "reviews": [
+                {
+                    "customerName": "שם1",
+                    "rating": 4,
+                    "reviewText": " טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד",
+                    "label": "טירוף חושים וכיף שלא נגמר, שווה!!",
+                    "created": "2017-11-18T11:30:30.378Z"
+                },
+                {
+                    "customerName": "שם2",
+                    "rating": 3,
+                    "reviewText": "drug מאוד",
+                    "label": "טירוף חושים וכיף שלא נגמר, שווה!!",
+                    "created": "2017-11-18T11:30:30.378Z"
+                },
+                {
+                    "customerName": "שם3",
+                    "rating": 5,
+                    "reviewText": "מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה",
+                    "label": "טירוף חושים וכיף שלא נגמר, שווה!!",
+                    "created": "2017-11-18T11:30:30.378Z"
+                }
+            ],
+            "suggestedBenefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 4,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "false",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                }
+            ],
+            "wasPurchased": false,
+            "howToRedeem": "בלה בלה בלה לורם איפסום דולורם",
+            "isExpired": false,
+            "premiumPoints": 3
+        },
+        {
+            "id": 2,
+            "name": "BLUE MAN GROUP - כרטיס 1+1 היכל התרבות",
+            "price": 50,
+            "maxQuantity": 5,
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "description": "מיזמי אגרונומיה אם עוד, כדי ב ויקי סוציולוגיה אנציקלופדיה. שכל החלה מושגי בחירות גם, מיותר מת על זאת, על אתה שתפו הבהרה.",
+            "viewersCount": 56,
+            "expireAt": "2017-11-18T11:30:30.378Z",
+            "termsAndConditions": "ויקי סוציולוגיה אנציקלופדיה.שכל החלה מושגי בחירות גםשכל החלה מושגי בחירות גםשכל החלה מושגי בחירות גם שכל החלה מושגי בחירות גם, מיותר מת על זאת",
+            "redemptionAddresses": [
+                {
+                    "address": "סוקולוב 45, תל אביב",
+                    "isOpen": true,
+                    "distanceKm": 2.6
+                },
+                {
+                    "address": "סולומון 36, חולון",
+                    "isOpen": false,
+                    "distanceKm": 7.5
+                }
+            ],
+            "business": {
+                "name": "BLUE MANS GROUP",
+                "phoneNumber": "1700-70-70-70",
+                "customerServicePhoneNumber": "03-6241111 שלוחה 1",
+                "siteUrl": "http://google.com"
+            },
+            "reviews": [
+                {
+                    "customerName": "שם1",
+                    "rating": 4,
+                    "reviewText": " טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד"
+                },
+                {
+                    "customerName": "שם2",
+                    "rating": 3,
+                    "reviewText": "drug מאוד"
+                },
+                {
+                    "customerName": "שם3",
+                    "rating": 5,
+                    "reviewText": "מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה"
+                }
+            ],
+            "suggestedBenefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 4,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "false",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                }
+            ],
+            "wasPurchased": true,
+            "howToRedeem": "בלה בלה בלה לורם איפסום דולורם",
+            "isExpired": true,
+            "premiumPoints": 2
+        },
+        {
+            "id": 3,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "price": 50,
+            "maxQuantity": 5,
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "description": "מיזמי אגרונומיה אם עוד, כדי ב ויקי סוציולוגיה אנציקלופדיה. שכל החלה מושגי בחירות גם, מיותר מת על זאת, על אתה שתפו הבהרה.",
+            "viewersCount": 56,
+            "expireAt": "2017-11-18T11:30:30.378Z",
+            "termsAndConditions": "ויקי סוציולוגיה אנציקלופדיה.שכל החלה מושגי בחירות גםשכל החלה מושגי בחירות גםשכל החלה מושגי בחירות גם שכל החלה מושגי בחירות גם, מיותר מת על זאת",
+            "redemptionAddresses": [
+                {
+                    "address": "סוקולוב 45, תל אביב",
+                    "isOpen": true,
+                    "distanceKm": 2.6
+                },
+                {
+                    "address": "סולומון 36, חולון",
+                    "isOpen": false,
+                    "distanceKm": 7.5
+                }
+            ],
+            "business": {
+                "name": "BLUE MANS GROUP",
+                "phoneNumber": "1700-70-70-70",
+                "customerServicePhoneNumber": "03-6241111 שלוחה 1",
+                "siteUrl": "http://google.com"
+            },
+            "reviews": [
+                {
+                    "customerName": "שם1",
+                    "rating": 4,
+                    "reviewText": " טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד טוב מאוד"
+                },
+                {
+                    "customerName": "שם2",
+                    "rating": 3,
+                    "reviewText": "drug מאוד"
+                },
+                {
+                    "customerName": "שם3",
+                    "rating": 5,
+                    "reviewText": "מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה מעולה"
+                }
+            ],
+            "suggestedBenefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "true",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 4,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+                    "isFavorite": "false",
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                }
+            ],
+            "wasPurchased": true,
+            "howToRedeem": "בלה בלה בלה לורם איפסום דולורם בלה בלה בלה לורם איפסום דולורם בלה בלה בלה לורם איפסום דולורם בלה בלה בלה לורם איפסום דולורם בלה בלה בלה לורם איפסום דולורם בלה בלה בלה לורם איפסום דולורם בלה בלה בלה לורם איפסום דולורם בלה בלה בלה לורם איפסום דולורם בלה בלה בלה לורם איפסום דולורם",
+            "isExpired": true,
+            "premiumPoints": 0
+        }
+    ],
+    "faqs": [
+        {
+            "id": 1,
+            "question": "שאלות נפוצות 1",
+            "answer": "תשובה מפורטת לשאלה"
+        },
+        {
+            "id": 2,
+            "question": "שאלות נפוצות 2",
+            "answer": "תשובה מפורטת לשאלה"
+        },
+        {
+            "id": 3,
+            "question": "שאלות נפוצות 3",
+            "answer": "תשובה מפורטת לשאלה"
+        },
+        {
+            "id": 4,
+            "question": "שאלות נפוצות 4",
+            "answer": "תשובה מפורטת לשאלה"
+        },
+        {
+            "id": 5,
+            "question": "שאלות נפוצות 5",
+            "answer": "תשובה מפורטת לשאלה"
+        },
+        {
+            "id": 6,
+            "question": "שאלות נפוצות 6",
+            "answer": "תשובה מפורטת לשאלה"
+        },
+        {
+            "id": 7,
+            "question": "שאלות נפוצות 7",
+            "answer": "תשובה מפורטת לשאלה"
+        }
+    ],
+    "credit-card-types": [
+        {
+            "id": 1,
+            "type": "life_style",
+            "name": "לייף סטייל",
+            "ImageUrl": "http://www.eloico.com/wp-content/uploads/2016/12/credit-card-1680348_960_720-960x563.jpg"
+        },
+        {
+            "id": 2,
+            "type": "american_express",
+            "name": "אמריקן אקספרס",
+            "ImageUrl": "https://www.bmo.com/dist/images/personal/credit-cards/bmo-cashback-world-mastercard.png"
+        },
+        {
+            "id": 3,
+            "type": "visa",
+            "name": "ויזה",
+            "ImageUrl": "https://www.smartkompare.com/sites/default/files/credit-card/Credit-Card-Visa.jpg"
+        }
+    ],
+    "my-benefits": [
+        {
+            "id": 1,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "isRedeemed": true,
+            "redemptionDate": "2017-08-18T11:30:30.378Z"
+        },
+        {
+            "id": 2,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "isRedeemed": false,
+            "redeemedAt": ""
+        },
+        {
+            "id": 3,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "isRedeemed": true,
+            "redemptionDate": "2017-07-14T11:30:30.378Z"
+        },
+        {
+            "id": 4,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "isRedeemed": true,
+            "redemptionDate": "2017-03-11T12:30:30.378Z"
+        },
+        {
+            "id": 5,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png",
+            "isRedeemed": false,
+            "redemptionDate": ""
+        }
+    ],
+    "my-favorites": [
+        {
+            "id": 1,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 2,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 3,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 4,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 5,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy-0lugb6gG0yRkPSHuTOegZqkZl_H4LRi5dq1puwzbb71NYloA",
+            "isFavorite": "true",
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        }
+    ],
+    "hot-benefits": [
+        {
+            "id": 1,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 2,
+            "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+            "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+            "isFavorite": false,
+            "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+        },
+        {
+            "id": 3,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+            "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+            "isFavorite": true,
+            "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+        }
+    ],
+    "category-benefits": [
+        {
+            "id": 1,
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": true,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 6,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": true,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 7,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 8,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": true,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 10,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "benefits": [
+                {
+                    "id": 1,
+                    "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+                    "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 2,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+                    "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 4,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": true,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+                    "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 6,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": true,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 7,
+                    "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+                    "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 8,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": true,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                },
+                {
+                    "id": 9,
+                    "name": "מוקי - הולך על המים 1+1 כרטיסים להופעה באמפי שוני",
+                    "coverImageUrl": "https://image.ibb.co/gEqyAm/mooki.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/c1cLqm/bitmap_3x.png"
+                },
+                {
+                    "id": 10,
+                    "name": "פלאפל בריבוע - 1+1 למנת פלאפל יווני",
+                    "coverImageUrl": "https://image.ibb.co/gF0tbR/falafel_squared.png",
+                    "isFavorite": false,
+                    "storeLogoImageUrl": "https://image.ibb.co/kXiUGR/business_2.jpg"
+                }
+            ]
+        }
+    ],
+    "user": [
+        {
+            "id": "1",
+            "firstName": "Or",
+            "lastName": "Barak",
+            "userCards": [
+                {
+                    "id": 1,
+                    "type": "life_style",
+                    "expirationDate": "23/04",
+                    "lastDigits": "1234"
+                },
+                {
+                    "id": 2,
+                    "type": "visa",
+                    "expirationDate": "21/02",
+                    "lastDigits": "4321"
+                }
+            ],
+            "userStats": [
+                {
+                    "unredeemedBenefits": 4,
+                    "benefitsLeftThisMonth": 5,
+                    "premiumBenefitsLeft": 1
+                }
+            ]
+        }
+    ]
+}

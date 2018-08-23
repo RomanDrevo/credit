@@ -1,0 +1,38 @@
+@import '../../../../styles/abstract/all';
+
+.featured-benefits :global {
+    .featured-benefits-list {
+        $center-deal-scale-factor: 1.12;
+        $slide-height:241px;
+        $slide-width: 250px;
+        $space-between: 30px;
+        height: $slide-height * $center-deal-scale-factor;
+
+        // Needed for the space between slides to be represented as padding.
+        // Not using swiper spaceBetween setting as the margins gets buggy when the window is resized
+        .featured-benefit-wrapper {
+            $padding: $space-between / 2;
+            width: $slide-width + $space-between;
+            padding: 0 $padding 0 $padding;
+            transition: all 200ms ease;
+
+        }
+
+        .carousel-item {
+            margin-top: 12px;
+            transition: all 500ms ease;
+            height: $slide-height;
+        }
+
+        .youtube-ad{
+            width: 100%;
+            z-index:-1;
+            pointer-events: none;
+        }
+
+        .swiper-slide-active {
+            transform: scale($center-deal-scale-factor);
+            transform-origin: center center;
+        }
+    }
+}

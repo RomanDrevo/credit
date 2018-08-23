@@ -1,0 +1,13 @@
+@import '../../../styles/abstract/all';
+
+.bottom-bar-wrapper :global {
+    height: 49px;
+    background-image: linear-gradient(to left, $color-cobalt, $color-flat-blue);
+    box-shadow: 0 -1px 5px 0 $color-black-42;
+    .bottom-bar-action-icon {
+        img {
+            width: 25px;
+            height: 20px;
+        }
+    }
+}

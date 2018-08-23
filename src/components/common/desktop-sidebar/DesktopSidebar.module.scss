@@ -1,0 +1,21 @@
+@import '../../../styles/abstract/all';
+
+
+.links-container :global{
+    padding: 0;
+    background: $color-white;
+    box-shadow: 0 0 .5px 0 $color-warm-grey;
+    width: 272px;
+    a {
+        cursor: pointer;
+    }
+    li {
+        list-style-type: none;
+        padding: 11px 19px;
+        box-shadow: 0 0 .5px 0 $color-warm-grey;
+    }
+
+    .active-link {
+        background: $color-pale-grey;
+    }
+}

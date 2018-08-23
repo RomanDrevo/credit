@@ -1,0 +1,64 @@
+@import '../../../styles/abstract/all';
+
+.horizontal-list-wrapper {
+    .list-title {
+        p {
+            font-size: 17px;
+            text-align: right;
+            color: $color-light-navy;
+        }
+    }
+
+    .item {
+        background-color: $color-white;
+
+        margin-left: 15px;
+        &:last-child {
+            margin-left: 0;
+        }
+    }
+
+    .left-arrow {
+        height: 10px;
+        margin-right: 3px;
+    }
+
+    .title-desktop {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: right;
+        color: #15327e;
+    }
+}
+
+.horizontal-list-wrapper-desktop :global {
+    .item {
+        width: 273px;
+        height: 329px;
+        margin-left: 10px;
+    }
+
+    .benefit-box-caption {
+        font-size: 18px;
+    }
+
+    .benefit-box-logo {
+        width: 57px;
+        height: 57px;
+        object-fit: cover;
+    }
+}
+
+.horizontal-list-wrapper-mobile :global {
+    .item {
+        width: 201px;
+        height: 197px;
+    }
+
+}
+
+
+
+
+
+

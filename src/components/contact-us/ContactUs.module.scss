@@ -1,0 +1,204 @@
+@import '../../styles/abstract/all';
+
+.contact-us-desktop :global {
+    .wrapper {
+        div.col-xs-3 {
+            padding: 0;
+        }
+        .links-container {
+            padding: 0;
+            background: $color-white;
+            box-shadow: 0 0 .5px 0 $color-warm-grey;
+            width: 272px;
+            a {
+                cursor: pointer;
+            }
+            li {
+                list-style-type: none;
+                padding: 11px 19px;
+                box-shadow: 0 0 .5px 0 $color-warm-grey;
+            }
+
+            .active-link {
+                background: $color-pale-grey;
+            }
+        }
+
+        .success-message {
+            padding: 60px 135px;
+            background: $color-white;
+            box-shadow: 0 0 .5px 0 $color-warm-grey;
+            font-size: 23px;
+            width: 510px;
+            height: 219px;
+            img {
+                width: 74px;
+                height: 56px;
+                margin-bottom: 13px;
+            }
+        }
+    }
+
+    .form-container {
+        background: $color-white;
+        box-shadow: 0 0 .5px 0 $color-warm-grey;
+        padding: 43px 70px 34px;
+        width: 510px;
+        color: $color-dark-grey-blue;
+        form {
+            margin-top: 24px;
+        }
+
+        input {
+            font-weight: 600;
+            font-size: 20px;
+            border: none;
+            border-bottom: 1px solid $color-dark-grey-blue;
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            margin-top: 12px;
+            margin-bottom: 24px;
+        }
+
+        .title {
+            font-size: 23px;
+        }
+
+        //the label when its not transitioned above the input
+        .mui-textfield--float-label > label {
+            font-size: 15px;
+        }
+
+        //the label when its transitioned above the input
+        .mui-textfield--float-label > input:not(:focus).mui--is-not-empty ~ label, .mui-textfield--float-label > input:not(:focus)[value]:not([value=""]):not(.mui--is-empty):not(.mui--is-not-empty) ~ label, .mui-textfield--float-label > input:not(:focus):not(:empty):not(.mui--is-empty):not(.mui--is-not-empty) ~ label, .mui-textfield--float-label > textarea:not(:focus).mui--is-not-empty ~ label, .mui-textfield--float-label > textarea:not(:focus)[value]:not([value=""]):not(.mui--is-empty):not(.mui--is-not-empty) ~ label, .mui-textfield--float-label > textarea:not(:focus):not(:empty):not(.mui--is-empty):not(.mui--is-not-empty) ~ label {
+            font-size: 15px;
+        }
+
+        ._4gg85cpx8epcf1ct5zeeaxhtfwf3nj446kzfdc2edxkfbpguzhhvrydv2q2dsnpzxzcrtmunbytr4kvj3a68jgsajjtp26987wj9xkh-InputField-module-input-field {
+            margin-top: 7px;
+        }
+
+        .button-section{
+            margin: 0;
+        }
+
+    }
+
+    .input-field {
+        margin-bottom: 7px;
+    }
+
+    .form-section {
+        background-color: $color-white;
+        padding: 0 56px;
+    }
+    .textarea-section {
+        textarea::placeholder {
+            color: $color-dark-grey-blue;
+        }
+        textarea {
+            width: 100%;
+            font-weight: 300;
+            font-size: 20px;
+            box-shadow: 0 0 0 .10px $color-warm-grey;
+            height: 198px;
+        }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            text-align: center;
+            line-height: 194px;
+
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+            text-align: center;
+            line-height: 194px;
+
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+            text-align: center;
+            line-height: 194px;
+
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            text-align: center;
+            line-height: 194px;
+        }
+    }
+    .action-button {
+        width: 280px;
+        height: 51px;
+        font-size: 20px;
+        border-radius: 6px;
+        margin-top: 35px;
+    }
+    .error {
+        color: $color-thunderbird;
+        font-size: 14px;
+        font-weight: 600;
+        height: 20px;
+    }
+}
+
+.contact-us-mobile :global {
+    .header {
+        img {
+            height: 52px;
+            width: 52px;
+            margin-bottom: 24px;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    .button-section{
+    }
+    .form-section {
+        background-color: $color-white;
+        padding: 0 35px 35px;
+    }
+    .textarea-section {
+        textarea::placeholder {
+            color: $color-dark-grey-blue;
+        }
+        textarea {
+            width: 100%;
+            font-weight: 600;
+            font-size: 15px;
+            box-shadow: 0 0 0 .25px rgba(151, 151, 151, 1);
+            height: 97px;
+            border: 1px solid $color-warm-grey;
+        }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            text-align: center;
+            line-height: 90px;
+
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+            text-align: center;
+            line-height: 90px;
+
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+            text-align: center;
+            line-height: 90px;
+
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            text-align: center;
+            line-height: 90px;
+        }
+    }
+    .action-button {
+        width: 156px;
+        height: 37.5px;
+    }
+    .error {
+        color: $color-thunderbird;
+        font-size: 14px;
+        font-weight: 600;
+        height: 20px;
+    }
+}

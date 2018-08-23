@@ -1,0 +1,7 @@
+{
+    "/api/benefits/featured": "/api/featured-benefits",
+    "/api/benefits/popular": "/api/popular-benefits",
+    "/api/benefits/hot": "/api/hot-benefits",
+    "/api/benefits/suggested": "/api/suggested-benefits",
+    "/api/benefits/most-viewed": "/api/most-viewed-benefits"
+}

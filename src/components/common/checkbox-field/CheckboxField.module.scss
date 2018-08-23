@@ -1,0 +1,39 @@
+@import '../../../styles/abstract/all';
+
+
+.checkbox {
+    input[type="checkbox"] {
+        appearance: initial;
+        width: 18px;
+        height: 18px;
+        margin: 2px 0 0 10px;
+        position: relative;
+        border-radius: 3px;
+        background: $color-dark-grey-blue;
+    }
+    //input[type="checkbox"]:checked:focus {
+    //    outline: none;
+    //}
+    input[type="checkbox"]:checked:after {
+        content: "";
+        background: url('../../../assets/images/icon-check.png') no-repeat center center;
+        background-size: contain;
+        position: absolute;
+        width: 10px;
+        height: 8px;
+        top: 4px;
+        right: 2px;
+    }
+
+    .title{
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .error {
+        color: $color-thunderbird;
+        font-size: 14px;
+        font-weight: 600;
+        height: 20px;
+    }
+}

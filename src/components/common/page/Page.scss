@@ -1,0 +1,50 @@
+@import '../../../styles/abstract/all';
+
+
+.desktop-page{
+    margin-top: -57px;
+}
+
+
+.order-benefit {
+    background: #fff;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+
+    .favorite-icon {
+        width: 36px;
+        height: 30px;
+        object-fit: contain;
+        right: 24px;
+    }
+}
+
+.favorite-icon-wrapper {
+    border-left: solid 1px #cccccc;
+}
+
+.phone-icon {
+    width: 31px;
+    height: 31px;
+    object-fit: contain;
+}
+
+
+
+.order-benefit-btn {
+    color: #fff;
+    background-image: linear-gradient(to left, #19398a, #3076a7);
+    font-size: 20px;
+    height: 57px;
+    border: none;
+    line-height: 57px;
+
+    &:hover {
+        background-image: linear-gradient(to left, lighten(#19398a, 10), lighten(#3076a7, 10));
+        color: $color-white;
+    }
+}
+
+

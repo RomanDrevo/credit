@@ -1,0 +1,9 @@
+@import '../../styles/abstract/all';
+
+.mui-textfield > input:not(:focus).mui--is-invalid:not(:required) {
+    border: none;
+    box-shadow: 0 2px 2px -2px $color-thunderbird;
+}
+.mui-textfield > input:not(:focus).mui--is-invalid:not(:required) ~ label{
+    color: $color-thunderbird;
+}

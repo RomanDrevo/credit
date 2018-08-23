@@ -1,0 +1,8 @@
+@import '../styles/abstract/all';
+
+.app :global {
+    min-height: calc(100vh - 57px - 49px); // minus header and footer accordingly
+    .page-content {
+        margin-top: 57px;
+    }
+}

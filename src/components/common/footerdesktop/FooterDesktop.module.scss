@@ -1,0 +1,29 @@
+@import '../../../styles/abstract/all';
+
+.footer-wrapper :global {
+    background: $color-pale-grey;
+    padding: 44px 73px 35px 95px;
+    margin-top: 90px;
+
+    .single-column-wrapper {
+        .column-items {
+            padding: 0;
+            color: $color-brownish-grey;
+            li {
+                list-style-type: none;
+            }
+            .link {
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+
+        p {
+            width: 170px;
+            border-bottom: 1px solid $color-warm-grey;
+            margin-bottom: 12px;
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+}

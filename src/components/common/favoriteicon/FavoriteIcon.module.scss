@@ -1,0 +1,16 @@
+@import '../../../styles/abstract/all';
+
+.favorite-icon-wrapper :global{
+    //width: 25px;
+    //height: 25px;
+    //background-color: #fff;
+    //border-radius: 100%;
+    //position: absolute;
+    //bottom: 0;
+    //right: 0;
+    img {
+        width: 24px;
+        height: 20px;
+        padding: 4px;
+    }
+}

@@ -1,0 +1,112 @@
+@import '../../styles/abstract/all';
+
+.personal :global {
+    .my-benefits-stats-wrapper {
+        .my-benefits {
+            p.bold {
+                display: none;
+            }
+        }
+
+    }
+
+    .my-benefits-wrapper{
+        background: #fff;
+        font-size: 14px;
+        .benefit-cover-img {
+            width: 100%;
+            height: 143px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .store-logo-wrapper{
+            height: 45px;
+        }
+
+        .actions {
+            font-size: 12px;
+            width: 100%;
+            .benefit-details-button{
+                padding: 0px 17px;
+                font-size: 12px; //need to override style of the ActionButton component
+            }
+
+            .purchase-date{
+                color: $color-dark-grey-blue;
+                font-size:14px;
+            }
+        }
+
+    }
+
+    #controlled-tab{
+        margin-bottom: 18px;
+        .nav.nav-tabs{
+            li{
+                text-align: center;
+                background:white;
+            }
+
+            li:first-child{
+                width: 50%;
+            }
+
+            li:last-child{
+                width: 50%;
+            }
+
+        }
+
+        .nav-tabs > li.active > a{
+            border: none;
+            border-bottom: 2px solid $color-flat-blue;
+            color:$color-flat-blue;
+        }
+
+        .nav-tabs {
+            border-bottom: none;
+        }
+    }
+
+    .greetings-text{
+        line-height: 26px;
+    }
+
+    .default-greetings-text {
+        padding: 22px 0 19px 4px;
+        font-size: 15px;
+        color: $color-dark-grey-blue;
+
+        .update-personal-details {
+            text-decoration: underline;
+        }
+
+        .personal-details-edit-button {
+            width: 12px;
+        }
+
+        .font-size-17 {
+            font-size: 17px;
+        }
+
+        .normal-weight {
+            font-weight: normal;
+        }
+    }
+
+    .desktop-personal-wrapper{
+        .title-desktop{
+            color: $color-dark-grey-blue;
+            font-size: 25px;
+        }
+    }
+
+    .faq-list{
+        font-size: 13px;
+        //color: #3076a7;
+        color: $color-flat-blue;
+        border: 1px solid red;
+    }
+}
